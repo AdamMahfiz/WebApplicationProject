@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Corporate Website</title>
+    <title>About Us - Corporate Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -21,8 +21,23 @@
                             <li><a href="approach.html">Approach</a></li>
                         </ul>
                     </li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+					<li class="dropdown">
+                        <a href="About.html">Services</a>
+                        <ul class="dropdown-content">
+                            <li><a href="Work-Process.html">Work Process</a></li>
+							<li><a href="Type-Services.html">Type of Services</a></li>
+                        </ul>
+                    </li>
+					<li class="dropdown">
+                        <a href="About.html">Portfolio</a>
+                        <ul class="dropdown-content">
+                            <li><a href="Proj1.html">Project 1</a></li>
+							<li><a href="Proj2.html">Project 2</a></li>
+							<li><a href="Proj3.html">Project 3</a></li>
+                        </ul>
+                    </li>
+					<li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>
